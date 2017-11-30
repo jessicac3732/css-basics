@@ -33,8 +33,51 @@ body{
     font-family:"Crimson Text", Arial;
     line-height:1.5;
 }
+
 code{
     color:#CE234C;
+    background-color:lightgray;
+}
+
+code.snippet{
+    background-color: lightgray;
+}
+
+div.snippet{
+     background-color:lightgray;
+}
+
+#font-practice{
+    color: green;
+    font-style: italic;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: black;
+}
+
+#list{
+    list-style-type: square;
+}
+
+.container{
+    background-color: pink;
+}
+
+img{
+    border: 10px solid lightgreen;
 }
 /*Write your CSS rules below!*/
 
