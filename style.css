@@ -18,66 +18,68 @@ hr {
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-h1{
-    font-size:72px;
+h1 {
+    font-size: 72px;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: Oswald, "Helvetica Neue";
-    text-align:center;
-    color:#2884C3;
+    text-align: center;
+    color: #2884C3;
+    background-color: violet;
 }
 
-body{
-    font-size:1.5em;
-    font-family:"Crimson Text", Arial;
-    line-height:1.5;
+body {
+    font-size: 1.5em;
+    font-family: "Crimson Text", Arial;
+    line-height: 1.5;
 }
 
-code{
-    color:#CE234C;
-    background-color:lightgray;
-}
-
-code.snippet{
+code {
+    color: #CE234C;
     background-color: lightgray;
 }
 
-div.snippet{
-     background-color:lightgray;
+code.snippet {
+    background-color: lightgray;
 }
 
-#font-practice{
+div.snippet {
+    background-color: lightgray;
+}
+
+#font-practice {
     color: green;
     font-style: italic;
 }
 
-a{
+a {
     color: green;
 }
 
-a:hover{
+a:hover {
     color: red;
 }
 
-a:active{
+a:active {
     color: blue;
 }
 
-a:visited{
+a:visited {
     color: black;
 }
 
-#list{
+ul {
     list-style-type: square;
 }
 
-.container{
+.container {
     background-color: pink;
 }
 
-img{
+#kitten {
     border: 10px solid lightgreen;
 }
-/*Write your CSS rules below!*/
 
+/*Write your CSS rules below!*/
